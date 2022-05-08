@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Code text</title>
+  </head>
+  <body>
+    <div class="centraliza"> <img id="blinking_image" src="imagens/Trustnoone.png" alt="olhode cima" /></div>
+
+    </div>
+    <div class="logo">
+      <img class="eye" src="imagens/Olho.png" alt="Providence Eye" />
+    </div>
+    <div class="principal">
+      <div class="codificador">
+        <textarea
+          class="box1"
+          name=""
+          id="campo"
+          placeholder="Hide the truth..."
+        ></textarea>
+        <div class="aviso">
+          <img
+            src="imagens/warning-sign.png"
+            alt="warning"
+            width="16px"
+            height="16px"
+          />
+          <p>Only lowercase letters, no symbols.</p>
+        </div>
+        <div class="botoes">
+          <button class="botao botao1">Code</button>
+          <button class="botao botao2">Decode</button>
+        </div>
+      </div>
+    </div>
+    <div id="decodificador">
+      <img class="icone" src="imagens/Esquadro.png" alt="compass" />
+      <p class="codificador-text">See the truth</p>
+      <h2 id="none"></h2>
+      <textarea readonly="" name="" id="campo2" placeholder=""></textarea>
+
+      <div id="copy">
+        <button class="botao botao3" onclick="copy()">Copy</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
